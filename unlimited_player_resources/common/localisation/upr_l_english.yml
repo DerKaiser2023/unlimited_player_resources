@@ -1,0 +1,7 @@
+l_english:
+  upr_category: "Player Utilities"
+  give_player_infinite_resources: "Enable Unlimited Resources (Player Only)"
+  give_player_infinite_resources_desc: "Gives you a massive resource, fuel, and supply boost. This does not affect the AI."
+
+  player_infinite_resources_idea: "Player's God Mode"
+  player_infinite_resources_idea_desc: "Enjoy unlimited everything."

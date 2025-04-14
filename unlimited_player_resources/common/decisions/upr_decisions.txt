@@ -1,0 +1,26 @@
+decisions = {
+    upr_category = {
+        icon = GFX_goal_generic_construct_civilian
+        allowed = {
+            always = yes
+        }
+        visible = {
+            is_human = yes
+        }
+
+        give_player_infinite_resources = {
+            icon = GFX_goal_generic_construct_mil_factory
+            available = {
+                is_human = yes
+                has_idea = player_infinite_resources_idea == no
+            }
+            visible = {
+                is_human = yes
+            }
+            cost = 0
+            complete_effect = {
+                add_ideas = player_infinite_resources_idea
+            }
+        }
+    }
+}

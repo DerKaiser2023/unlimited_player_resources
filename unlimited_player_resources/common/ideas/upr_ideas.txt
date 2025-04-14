@@ -1,0 +1,20 @@
+player_infinite_resources_idea = {
+    picture = generic_industry
+    allowed = { always = yes}
+    removal_cost = -1
+    modifier = {
+        oil_resource = 10000
+        aluminum_resource = 10000
+        rubber_resource = 10000
+        tungsten_resource = 10000
+        steel_resource = 10000
+
+        fuel_gain = 100000
+        fuel_capacity = 100000
+
+        supply_grace = 999
+        army_supply_factor = 100
+        navy_supply_factor = 100
+        air_supply_factor = 100
+    }
+}
